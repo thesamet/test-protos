@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.thesamet.protos;
+
+import "scalapb/scalapb.proto";
+
+message MapTest {
+  map<string, int32> string_to_int32 = 1;
+}
